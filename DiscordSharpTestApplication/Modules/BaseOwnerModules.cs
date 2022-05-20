@@ -1,5 +1,5 @@
-﻿using DiscordSharp.Commands;
-using DiscordSharp.Objects;
+﻿using DiscordDotNet.Commands;
+using DiscordDotNet.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -189,7 +189,7 @@ namespace Luigibot.Modules
                 }
             }));
 
-            manager.AddCommand(new CommandStub("flush", "Flushes various internal DiscordSharp caches.", "Flushes either `offline` or `messages`. \n  `offline` as parameter will flush offline users from the current server.\n  `messages` will flush the internal message log.", PermissionType.Owner, 1, cmdArgs =>
+            manager.AddCommand(new CommandStub("flush", "Flushes various internal DiscordDotNet caches.", "Flushes either `offline` or `messages`. \n  `offline` as parameter will flush offline users from the current server.\n  `messages` will flush the internal message log.", PermissionType.Owner, 1, cmdArgs =>
             {
                 if(cmdArgs.Args.Count > 0)
                 {

@@ -1,6 +1,6 @@
-﻿using DiscordSharp;
-using DiscordSharp.Commands;
-using DiscordSharp.Objects;
+﻿using DiscordDotNet;
+using DiscordDotNet.Commands;
+using DiscordDotNet.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace Luigibot.Modules
             Description = "nunya";
 
             DiscordSharpTestServer = client.GetServersList().Find(
-                x => x.Name == "DiscordSharp Test Server"
+                x => x.Name == "DiscordDotNet Test Server"
             ); //todo replace with id
             if(DiscordSharpTestServer != null)
             {

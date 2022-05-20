@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DiscordSharp.Objects;
 
-namespace DiscordSharp.Commands
+namespace DiscordDotNet.Commands
 {
     /// <summary>
     /// A basic command providing arguments as strings.

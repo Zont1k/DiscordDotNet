@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscordSharp.Commands
+namespace DiscordDotNet.Commands
 {
     public enum PermissionType : int
     {

@@ -1,4 +1,4 @@
-﻿using DiscordSharp.Commands;
+﻿using DiscordDotNet.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;

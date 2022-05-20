@@ -1,6 +1,6 @@
-﻿using DiscordSharp;
-using DiscordSharp.Commands;
-using DiscordSharp.Objects;
+﻿using DiscordDotNet;
+using DiscordDotNet.Commands;
+using DiscordDotNet.Objects;
 using NLua;
 using NAudio.Wave;
 using Newtonsoft.Json;
@@ -388,7 +388,7 @@ namespace Luigibot
                         CommandsManager.OverrideModulesDictionary(config.ModulesDictionary);
                     }
 
-                    //client.UpdateCurrentGame($"DiscordSharp {typeof(DiscordClient).Assembly.GetName().Version.ToString()}");
+                    //client.UpdateCurrentGame($"DiscordDotNet {typeof(DiscordClient).Assembly.GetName().Version.ToString()}");
                 };
                 if(client.SendLoginRequest() != null)
                 {
@@ -578,7 +578,7 @@ namespace Luigibot
             {
                 string message = "**About Luigibot**\n";
                 message += $"Owner: {owner.Username}#{owner.Discriminator}\n";
-                message += $"Library: DiscordSharp {typeof(DiscordClient).Assembly.GetName().Version.ToString()}\n";
+                message += $"Library: DiscordDotNet {typeof(DiscordClient).Assembly.GetName().Version.ToString()}\n";
                 message += $"WebSocket: " + (UseBuiltInWebsocket ? "`System.Net.WebSockets`" : "`WebSocketSharp`") + "\n";
                 message += $"Gateway Version: {client.DiscordGatewayVersion}\n";
                 var uptime = (DateTime.Now - loginDate);

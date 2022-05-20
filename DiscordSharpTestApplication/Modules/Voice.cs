@@ -1,6 +1,6 @@
-﻿using DiscordSharp;
-using DiscordSharp.Commands;
-using DiscordSharp.Objects;
+﻿using DiscordDotNet;
+using DiscordDotNet.Commands;
+using DiscordDotNet.Objects;
 using NAudio.Wave;
 using System;
 using System.Collections.Generic;

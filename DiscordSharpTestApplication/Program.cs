@@ -1,5 +1,5 @@
-﻿using DiscordSharp;
-using DiscordSharp.Objects;
+﻿using DiscordDotNet;
+using DiscordDotNet.Objects;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -18,7 +18,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using Luigibot;
 
-namespace DiscordSharpTestApplication
+namespace DiscordDotNetTestApplication
 {
     internal class AudioPlayer
     {

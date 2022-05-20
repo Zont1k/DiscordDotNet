@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DiscordSharp.Commands
+namespace DiscordDotNet.Commands
 {
     public class IDGenerator
     {

@@ -134,9 +134,9 @@
       <Project>{2E99D97F-3480-43E2-AC9D-7DAE521CB610}</Project>
       <Name>DiscordSharp.Commands</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DiscordSharp\DiscordSharp.csproj">
-      <Project>{A96FFE9E-3650-4976-872E-5BB336CC1589}</Project>
-      <Name>DiscordSharp</Name>
+    <ProjectReference Include="..\DiscordDotNet\DiscordDotNet.csproj">
+      <Project>{a96ffe9e-3650-4976-872e-5bb336cc1589}</Project>
+      <Name>DiscordDotNet</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

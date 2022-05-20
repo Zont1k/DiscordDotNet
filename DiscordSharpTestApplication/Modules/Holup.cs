@@ -1,4 +1,4 @@
-﻿using DiscordSharp.Commands;
+﻿using DiscordDotNet.Commands;
 using System;
 
 namespace Luigibot.Modules

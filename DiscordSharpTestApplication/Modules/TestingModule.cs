@@ -1,5 +1,5 @@
-﻿using DiscordSharp.Commands;
-using DiscordSharp.Objects;
+﻿using DiscordDotNet.Commands;
+using DiscordDotNet.Objects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace Luigibot.Modules
         public TestingModule()
         {
             Name = "testing";
-            Description = "Testing modules for DiscordSharp.";
+            Description = "Testing modules for DiscordDotNet.";
         }
 
         private static string RolesToString(List<DiscordRole> roles)
